@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: stkabang <stkabang@student.42.fr>          +#+  +:+       +#+         #
+#    By: kingstephane <kingstephane@student.42.f    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/01/16 18:00:46 by kingstephan       #+#    #+#              #
-#    Updated: 2026/01/17 15:53:43 by stkabang         ###   ########.fr        #
+#    Updated: 2026/01/30 15:58:06 by kingstephan      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 RM = rm -rf
 
-SRCS = Animal.cpp Brain.cpp Dog.cpp Cat.cpp main.cpp
+SRCS = AAnimal.cpp Brain.cpp Dog.cpp Cat.cpp main.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 all: $(NAME)

@@ -3,23 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: stkabang <stkabang@student.42.fr>          +#+  +:+       +#+        */
+/*   By: kingstephane <kingstephane@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/16 17:57:34 by kingstephan       #+#    #+#             */
-/*   Updated: 2026/01/17 16:46:58 by stkabang         ###   ########.fr       */
+/*   Updated: 2026/01/30 15:54:29 by kingstephan      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Animal.hpp"
+#include "AAnimal.hpp"
 #include "Dog.hpp"
 #include "Cat.hpp"
 
 int main()
 {
 	std::cout << "===== BRAIN CLASS TEST =====" << std::endl;
-	std::cout << "\n===== Animal array construtions =====" << std::endl;
+	std::cout << "\n===== AAnimal array construtions =====" << std::endl;
 
-	Animal *animals[4];
+	AAnimal *animals[4];
 	animals[0] = new Dog();
 	animals[1] = new Dog();
 	animals[2] = new Cat();

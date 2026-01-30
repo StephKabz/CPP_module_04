@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Animal.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: stkabang <stkabang@student.42.fr>          +#+  +:+       +#+        */
+/*   By: kingstephane <kingstephane@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:22:16 by kingstephan       #+#    #+#             */
-/*   Updated: 2026/01/17 15:19:11 by stkabang         ###   ########.fr       */
+/*   Updated: 2026/01/30 16:24:47 by kingstephan      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,6 @@
 Animal::Animal() : type("Unamed")
 {
 	std::cout << "Animal Default constructor called" << std::endl;
-};
-
-Animal::Animal(std::string type) : type(type)
-{
-	std::cout << "Animal constructor called" << std::endl;
 };
 
 Animal::Animal(const Animal &other) : type(other.type)

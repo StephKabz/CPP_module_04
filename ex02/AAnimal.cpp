@@ -17,11 +17,6 @@ AAnimal::AAnimal() : type("Unamed")
 	std::cout << "AAnimal Default constructor called" << std::endl;
 };
 
-AAnimal::AAnimal(std::string type) : type(type)
-{
-	std::cout << "AAnimal constructor called" << std::endl;
-};
-
 AAnimal::AAnimal(const AAnimal &other) : type(other.type)
 {
 	std::cout << "AAnimal copy constructor called" << std::endl;
@@ -39,11 +34,6 @@ AAnimal& AAnimal::operator=(const AAnimal &other)
 std::string	AAnimal::getType() const
 {
 	return (type);
-};
-
-void	AAnimal::makeSound() const
-{
-	std::cout << "AAnimal Makes sound" << std::endl;
 };
 
 AAnimal::~AAnimal()
